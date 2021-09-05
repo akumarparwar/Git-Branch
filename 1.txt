@@ -1,1 +1,36 @@
 This file contains version 1 of master branch
+
+
+public class Employee {
+String employeeName;
+String employeeAddress;
+public Employee() {
+	employeeName ="abc";
+	employeeAddress ="jbp";
+	
+}
+public Employee(String n,String a) {
+	employeeName =n;
+	employeeAddress =a;
+	
+}
+public void getDetails()
+{
+	System.out.println("Name of an employee :"+employeeName);
+	System.out.println("Address of an employee :"+employeeAddress);
+	System.out.println("2"+"3");
+	System.out.println(2+3);
+	System.out.println("2"+3+5);
+	System.out.println("2"+(3+5));
+	System.out.println(2+3+"5");
+}
+public static void main(String arg[])
+{
+	Employee obj = new Employee();
+	obj.getDetails();
+	Employee obj1 = new Employee("a","bpl");
+	obj1.getDetails();
+
+
+}
+}
